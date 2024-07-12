@@ -1,0 +1,48 @@
+{
+  "configurations" : [
+    {
+      "id" : "CC9AE63A-3C04-4771-B318-42EDAA517DE3",
+      "name" : "English (United States)",
+      "options" : {
+        "language" : "en",
+        "region" : "US"
+      }
+    },
+    {
+      "id" : "2CFD4B10-55E6-4832-A0F1-F4023D537461",
+      "name" : "German (Germany)",
+      "options" : {
+        "language" : "de",
+        "region" : "DE"
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "areLocalizationScreenshotsEnabled" : true,
+    "preferredScreenCaptureFormat" : "screenshot",
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:LocalizationScreenshotTestAllSwift.xcodeproj",
+      "identifier" : "4F2598912C36B29900EF0724",
+      "name" : "LocalizationScreenshotTestAllSwift"
+    },
+    "uiTestingScreenshotsLifetime" : "keepAlways",
+    "userAttachmentLifetime" : "keepAlways"
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:LocalizationScreenshotTestAllSwift.xcodeproj",
+        "identifier" : "4F2598A22C36B29C00EF0724",
+        "name" : "LocalizationScreenshotTestAllSwiftTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:LocalizationScreenshotTestAllSwift.xcodeproj",
+        "identifier" : "4F2598AC2C36B29C00EF0724",
+        "name" : "LocalizationScreenshotTestAllSwiftUITests"
+      }
+    }
+  ],
+  "version" : 1
+}

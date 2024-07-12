@@ -1,0 +1,16 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Hello, world!" : {
+      "localizations" : {
+        "de" : {
+          "stringUnit" : {
+            "state" : "needs_review",
+            "value" : "Hallo, Allgemeinheit!"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

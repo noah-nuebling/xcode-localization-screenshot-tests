@@ -1,0 +1,52 @@
+{
+  "configurations" : [
+    {
+      "id" : "6EB8326A-BCAF-47F8-A196-F4182B0E18FE",
+      "name" : "German (Germany)",
+      "options" : {
+        "language" : "de",
+        "region" : "DE"
+      }
+    },
+    {
+      "id" : "30ED70A2-E3A9-4EA5-A690-46F2BF42806C",
+      "name" : "English (United States)",
+      "options" : {
+        "language" : "en",
+        "region" : "US"
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "areLocalizationScreenshotsEnabled" : true,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:LocalizationScreenshotTestIOSAllSwift.xcodeproj",
+      "identifier" : "4F2598CB2C36B4E000EF0724",
+      "name" : "LocalizationScreenshotTestIOSAllSwift"
+    }
+  },
+  "testTargets" : [
+    {
+      "enabled" : false,
+      "target" : {
+        "containerPath" : "container:LocalizationScreenshotTestIOSAllSwift.xcodeproj",
+        "identifier" : "4F2598DB2C36B4E200EF0724",
+        "name" : "LocalizationScreenshotTestIOSAllSwiftTests"
+      }
+    },
+    {
+      "skippedTests" : [
+        "LocalizationScreenshotTestIOSAllSwiftUITests\/testLaunchPerformance()",
+        "LocalizationScreenshotTestIOSAllSwiftUITestsLaunchTests",
+        "LocalizationScreenshotTestIOSAllSwiftUITestsLaunchTests\/testLaunch",
+        "LocalizationScreenshotTestIOSAllSwiftUITestsLaunchTests\/testLaunch()"
+      ],
+      "target" : {
+        "containerPath" : "container:LocalizationScreenshotTestIOSAllSwift.xcodeproj",
+        "identifier" : "4F2598E52C36B4E200EF0724",
+        "name" : "LocalizationScreenshotTestIOSAllSwiftUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
